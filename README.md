@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## Import react
+
+```sh
+var React = require('react');
+var ReactDom = require('react-dom');
+
+ReactDom.render(
+    <div>Hello World</div>,
+    document.getElementById("root")
+);
+```
+Here, the older version uses this require react to be in a Reaact variable and then render it but now, ES 6 with babble feature made import React and ReactDom readable.  
+
+
+```sh
+import React from "react";
+import ReactDom from "react-dom";
+
+```
