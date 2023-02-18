@@ -82,7 +82,7 @@ ReactDom.render(
     document.getElementById("root")
 );
 ```
-Here, the older version uses this require react to be in a Reaact variable and then render it but now, ES 6 with babble feature made import React and ReactDom readable.  
+Here, the older version uses this require react to be in a React variable and then render it but now, ES 6 with babble feature made import React and ReactDom readable.  
 
 
 ```sh
@@ -90,3 +90,13 @@ import React from "react";
 import ReactDom from "react-dom";
 
 ```
+
+
+## without React render 
+
+ we have to write in js as->
+ ```sh
+ var h1 = document.createElement("h1");
+ h1.innerHTML = "hello World";
+ document.getElementById("root").appendChild(h1);
+ ```
