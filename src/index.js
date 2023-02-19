@@ -2,6 +2,7 @@
 // var ReactDom = require('react-dom');
 import React from "react"; // For use of JSX we must import react else for each HTML element we have to create element
 import ReactDom from "react-dom";
+import "./index.css";
 
 // babbel converts the mordern JS code to browser readable format.
 
@@ -27,3 +28,24 @@ without React render
 
  */
 
+// to use HTML inside the JS use ==> JSX
+    // to again use the HTML inside the JSX use ==> {} curly braces.
+
+
+// Template literals
+/*
+const fname = "Divyansh";
+ use backtick
+    ` my name is ${fname} `
+
+
+*/
+
+
+// JSX Attributes
+/*
+ <img src={i1} alt = "randomImages" />
+ <h1 contentEditable = "true" >JSX Attributes </h1> 
+*/
+
+// class v/s className -> we will be using className instead class
