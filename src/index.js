@@ -49,3 +49,21 @@ const fname = "Divyansh";
 */
 
 // class v/s className -> we will be using className instead class
+
+
+// In INLINE CSS is not like HTML
+/*
+      -----------  kebab-case to camelCase-------------
+as a JS object 
+const heading = {
+  key : 'value' ,
+  key : 'value' 
+  }
+
+so, now 
+
+ <h1 style = "color: red " >JSX Attributes </h1>  WRONG(X)
+ <h1 style = {heading} >JSX Attributes </h1>  right(X)
+ <h1 style = {{  key : 'value' , key : 'value' }} >JSX Attributes </h1>  right(X)
+ 
+*/
